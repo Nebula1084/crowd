@@ -1,0 +1,9 @@
+jupyter
+notebook
+tensorflow-gpu
+pandas
+xlrd
+nltk
+gensim
+numpy
+scikit-learn
