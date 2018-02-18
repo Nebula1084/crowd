@@ -7,3 +7,4 @@ nltk
 gensim
 numpy
 scikit-learn
+TwitterAPI
