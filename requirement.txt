@@ -1,6 +1,5 @@
 jupyter
 notebook
-tensorflow-gpu
 pandas
 xlrd
 nltk
@@ -8,3 +7,6 @@ gensim
 numpy
 scikit-learn
 matplotlib
+tflearn
+pyyaml
+h5py

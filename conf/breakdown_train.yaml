@@ -1,0 +1,10 @@
+embedding:
+  path: ./data/GoogleNews-vectors-negative300-SLIM.bin.gz
+  embed_size: 300
+  sequence_length: 100
+text:
+  type: excel
+  path: ./data/tweet_merged.xlsx
+  sheet: Sheet1
+  text_column: tweet_text
+  label_column: BREAKDOWN

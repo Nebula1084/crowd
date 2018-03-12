@@ -1,0 +1,9 @@
+embedding:
+  path: ./data/GoogleNews-vectors-negative300-SLIM.bin.gz
+  embed_size: 300
+  sequence_length: 100
+text:
+  type: csv
+  path: ./data/gender_tweet.csv
+  text_column: text
+  label_column: gender

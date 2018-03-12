@@ -14,7 +14,7 @@ def plot_lsa(test_data, test_labels, plot=True):
     lsa = TruncatedSVD(n_components=2)
     lsa.fit(test_data)
     lsa_scores = lsa.transform(test_data)
-    colors = ['orange', 'blue', 'blue']
+    colors = ['orange', 'blue', 'blue', 'green']
     if plot:
         plt.scatter(lsa_scores[:, 0], lsa_scores[:, 1], s=8, alpha=.8, c=test_labels,
                     cmap=matplotlib.colors.ListedColormap(colors))
